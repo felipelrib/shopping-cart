@@ -1,0 +1,24 @@
+POST http://localhost:3000/shopping-cart/addItem HTTP/1.1
+content-type: application/json
+
+{
+    "id": "1",
+    "amount": 3
+}
+
+###
+
+POST http://localhost:3000/shopping-cart/removeItem HTTP/1.1
+content-type: application/json
+
+{
+    "id": "1",
+    "amount": 1
+}
+
+###
+
+POST http://localhost:3000/shopping-cart/closeCart HTTP/1.1
+content-type: application/json
+
+{}
